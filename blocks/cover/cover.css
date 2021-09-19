@@ -1,0 +1,30 @@
+.cover {
+  position: relative;
+  width: 92.5%;
+  min-height: 740px;
+  margin: 92px 3.75%;
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    min-height: 640px;
+    width: 100vw;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    min-height: 480px;
+    width: 100vw;
+    margin: 90px 0 88px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .cover {
+    min-height: 200px;
+    width: 100vw;
+    margin: 66px 0 64px;
+  }
+}

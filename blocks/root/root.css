@@ -1,0 +1,8 @@
+.page {
+  font-family: 'Inter';
+  background-color: #2A2C2F;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  max-width: 100%;
+  width: 1280px;
+}
