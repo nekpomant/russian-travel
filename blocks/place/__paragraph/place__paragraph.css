@@ -1,0 +1,9 @@
+.place__paragraph {
+  display: flex;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.63;
+  margin: 48px 148px 0 40px;
+}
