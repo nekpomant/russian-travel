@@ -4,4 +4,20 @@
   font-size: 16px;
   line-height: 1.63;
   color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 33px;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__text {
+  max-width: 720px;
+  min-height: 208PX;
+  }
+}
+@media screen and (max-width: 319px) {
+  .intro__text {
+    max-width: 288px;
+    min-height: 520px;
+  }
 }

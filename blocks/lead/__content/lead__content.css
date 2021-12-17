@@ -1,3 +1,16 @@
 .lead__content {
-  position: relative;
+  margin: 0 auto;
+  display: grid;
 }
+
+@media screen and (max-width: 767px) {
+  .lead__content {
+  margin: 0;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .lead__content {
+    margin: 0;
+     }
+ }

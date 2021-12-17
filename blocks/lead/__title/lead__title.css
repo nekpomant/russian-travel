@@ -5,21 +5,28 @@
   line-height: 1.04;
   text-align: center;
   color: #FFFFFF;
-  width: 720px;
+  max-width: 720px;
   min-height: 200px;
   margin: 56px auto 32px;
 }
 
 @media screen and (max-width: 1023px) {
   .lead__title {
-    margin-top: 48px;
+      margin-top: 48px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .lead__title {
+      margin-top: 48px;
+  }
+}
+
 @media screen and (max-width: 319px) {
     .lead__title {
       margin-top: 48px;
       margin-bottom: 16px;
-      width: 288px;
+      max-width: 288px;
       min-height: 88px;
       font-size: 40px;
       line-height: 1.1;

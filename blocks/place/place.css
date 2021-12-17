@@ -1,6 +1,10 @@
 .place {
   display: grid;
-  grid-template-rows: repeat(4, auto);
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: 440px 456px;
+  grid-template-rows: 174px 440px;
+  margin: 0 auto 80px;
+  min-height: calc(440px + 48px + 152px);
   column-gap: 40px;
+  row-gap: 48px;
+  max-width: 76.875vw;
 }
