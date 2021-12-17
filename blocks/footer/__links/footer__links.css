@@ -3,4 +3,12 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 319px) {
+  .footer__links {
+    flex-direction: column;
+  }
 }

@@ -1,8 +1,8 @@
 .photo-grid {
   display: grid;
   grid-area: photo-grid;
-  margin: 92px auto;
-  width: calc(100% - 2 * 48px);
+  margin: 92px 3.75%;
+  max-width: 92.5%;
   grid-gap: 16px;
   grid-template-columns: repeat(4, minmax(284px, 1fr));
   grid-template-rows: repeat(3, minmax(213px, 1fr));
@@ -30,5 +30,7 @@
   grid-template-columns: 288px;
     grid-template-rows: repeat(12, minmax(216px, 1fr));
     grid-gap: 14px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 }
