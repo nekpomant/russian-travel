@@ -9,4 +9,19 @@ margin: 0;
 padding: 0;
 max-width: 460px;
 min-height: 76px;
+align-self: end;
+}
+
+@media screen and (max-width: 767px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 1.1px;
+    align-self: flex-start;
+  }
+}
+@media screen and (max-width: 319px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 1.09;
+  }
 }
