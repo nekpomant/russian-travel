@@ -5,4 +5,8 @@
   margin-left: 3.75vw;
   margin-right: 3.75vw;
 }
-
+@media screen and (max-width: 768px) {
+  .header {
+    margin: 0;
+  }
+}

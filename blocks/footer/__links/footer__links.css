@@ -6,7 +6,12 @@
   margin: 0;
   padding: 0;
 }
-
+@media screen and (max-width: 768px) {
+  .footer__links {
+    display: grid;
+    grid-gap: 32px;
+  }
+}
 @media screen and (max-width: 319px) {
   .footer__links {
     flex-direction: column;
