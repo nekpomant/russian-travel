@@ -9,14 +9,16 @@
   margin: 0;
   padding: 0;
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 1289px) {
   .lead__caption {
     margin-left: 24px;
   }
 }
 
-@media screen and (max-width: 319px) {
+
+@media screen and (max-width: 767px) {
   .lead__caption {
     margin-left: 16px;
-     }
- }
+  }
+}

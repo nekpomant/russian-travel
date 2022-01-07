@@ -4,8 +4,13 @@
   display: flex;
   color: #fff;
   flex-direction: column;
-  position: relative;
   text-decoration: none;
+  width: 100%;
+  min-height: 740px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .cover__link::after {
@@ -22,4 +27,20 @@
 
 .cover__link:hover:after {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__link {
+    min-height: 480px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__link {
+    min-height: 200px;
+    align-items: center;
+    justify-content: center;
+  }
 }

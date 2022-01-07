@@ -5,8 +5,27 @@
   margin-left: 3.75vw;
   margin-right: 3.75vw;
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1279px) {
   .header {
-    margin: 0;
+    width: 90.625vw;
+    margin-left: 4.6875vw;
+    margin-right: 4.6875vw;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    width: 93.75vw;
+    margin-left: 3.125vw;
+    margin-right: 3.125vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
