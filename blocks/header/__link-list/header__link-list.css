@@ -4,6 +4,8 @@
   flex-direction: row;
   flex-wrap: nowrap;
   margin-top: 46px;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 @media screen and (max-width:767px) {

@@ -23,3 +23,6 @@
 .footer__link:hover {
   opacity: 0.8;
 }
+.footer__link:first-of-type {
+  margin-left: 0;
+}

@@ -2,27 +2,30 @@
   display: grid;
   grid-row-gap: 92px;
   grid-template-areas: "lead"
-      "intro"
-      "photo-grid"
-      "places"
-      "cover"
-      "footer";
+    "intro"
+    "photo-grid"
+    "places"
+    "cover"
+    "footer";
   box-sizing: border-box;
+  width: 100%;
+  max-width: 1184px;
+  margin: 0 auto;
 }
 
 @media all and (max-width: 999px) {
   .content {
-      grid-row-gap: 88px;
+    grid-row-gap: 88px;
   }
 }
 
 @media all and (max-width:665px) {
   .content {
-      grid-row-gap: 64px;
+    grid-row-gap: 64px;
   }
 
   .content:last-of-type {
-      grid-row-gap: 48px;
+    grid-row-gap: 48px;
 
   }
 }
