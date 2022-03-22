@@ -10,24 +10,20 @@
 
 @media screen and (max-width: 1279px) {
   .places {
-    width: 92.5%;
-    margin: 0 48px;
-
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .places {
-    width: 90.625%;
-    margin: 0 24px;
+    max-width: 720px;
     row-gap: 72px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .places {
-    max-width: 93.75%;
-    margin: 0 5%;
+    max-width: 320px;
     row-gap: 36px;
   }
 }
